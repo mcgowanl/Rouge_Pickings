@@ -1,0 +1,95 @@
+/***** COMP SITE Laura's Code*****/
+/***** BASE STYLES *****/
+
+body {
+	font-family:'Montserrat', Helvetica, Arial,  sans-serif;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+h1, 
+h2,
+h3,
+h4, {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 24px
+}
+h3{
+	font-size: 18px
+}
+h4{
+	font-size: 12px
+}
+
+p{
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0 30px;
+}
+
+/***** HEADER *****/
+
+header{
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+header h1{
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+
+header h1 span{
+	color: #77a466;
+}
+
+header nav{
+	float: right;
+	padding: 46px 0;
+}
+
+header nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: #77a466;
+}
+
+
+#about .full-width{
+	padding: 10px 0;
+}
+
+#about h2{
+	font-family: 'Lora';
+	font-size: 36px
+	color: #77a466;
+}
+
+#about p{
+	font-size: 21px;
+	color: #333333;	
+}
